@@ -1,0 +1,186 @@
+---
+title: "Ciencia de datos con R con impacto en salud pública. Una experiencia de uso de tidyverse para la detección de embarazos"
+# subtitle: ""
+author: "Sabrina Laura López, Carolina Mengoni Goñalons, María Cristina Nanton y Manuel Rodríguez Tablado"
+institute: "Latin R 2021"
+date: "10-12 de noviembre de 2021"
+output:
+  xaringan::moon_reader:
+    css: ["latinR.css"]
+    self_contained: true
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      # beforeInit: "macros.js"
+---
+<!-- https://arm.rbind.io/slides/xaringan.html#1 -->
+<!-- https://spcanelon.github.io/xaringan-rladies-xalapa/diapositivas/introduccion-xaringan.html#54 -->
+
+
+# Quienes somos
+
+<img src="imagenes/agise.png" width="90%"/>
+<!-- <img src="html5.gif" alt="organigrama de GOGIES" style="width:128px;height:128px;"> -->
+
+---
+
+class: chapter-slide
+
+# Contexto y motivación
+
+---
+
+# Objetivos del Proyecto
+
+<img src="imagenes/objetivos.png" width="90%"/>
+<!-- ![image info](./imagenes/objetivos.png) -->
+
+
+---
+
+# Proyectos impactados
+
+<img src="imagenes/proyectos_impactados.png" class="center" width="90%"/>
+<!-- ![image info](./imagenes/proyectos_impactados.png) -->
+
+
+---
+
+# Ciclo del Dato
+
+<img src="imagenes/ciclo_del_dato.png" class="center" width="90%"/>
+<!-- ![image info](./imagenes/ciclo_del_dato.png) -->
+---
+
+# Seguimiento del embarazo y su registro
+
+<img src="imagenes/seguimiento_y_registro_embarazo.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/seguimiento_y_registro_embarazo.png) -->
+
+---
+
+class: chapter-slide
+
+# Proceso de detección de embarazos
+
+---
+
+## Herramientas
+
+<img src="imagenes/herramientas.png" class="center" width="80%"/>
+
+<!-- ![image info](./herramientas.png) -->
+
+---
+
+## Embarazos a detectar en un periodo de interés
+
+<img src="imagenes/1.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/1.png) -->
+
+---
+
+## Embarazos a detectar en un periodo de interés y ventana de búsqueda
+
+<img src="imagenes/2.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/2.png) -->
+
+---
+
+## Registros disponibles en la ventana de búsqueda
+
+<img src="imagenes/3.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/3.png) -->
+
+---
+
+## Extracción de información a partir de los registros de una persona
+
+<img src="imagenes/4.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/4.png) -->
+---
+
+## Agrupación de registros de un mismo embarazo
+
+<img src="imagenes/5.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/5.png) -->
+
+---
+
+## Delimitación temporal del embarazo
+
+<img src="imagenes/6.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/6.png) -->
+
+---
+
+## Delimitación temporal del embarazo
+
+<img src="imagenes/7.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/7.png) -->
+---
+
+## Delimitación temporal del embarazo
+
+<img src="imagenes/8.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/8.png) -->
+---
+
+## Delimitación temporal del embarazo
+
+<img src="imagenes/9.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/9.png) -->
+---
+
+## Delimitación temporal del embarazo
+
+<img src="imagenes/10.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/10.png) -->
+---
+
+## Delimitación temporal del embarazo
+
+<img src="imagenes/11.png" class="center" width="90%"/>
+
+<!-- ![image info](./imagenes/11.png) -->
+---
+
+class: chapter-slide
+
+# Resultados
+
+---
+
+## Caracterización de los embarazos según dimensiones
+
+<img src="imagenes/resultados.png" class="center" width="90%"/>
+
+---
+
+## Muchas gracias!
+
+<br>
+<br>
+<br>
+**Sabrina Laura López**<br>
+sabrinalauralopez@buenosaires.gob.ar <br>
+**Carolina Mengoni Goñalons**<br>
+cmengoni@buenosaires.gob.ar <br>
+**María Cristina Nanton**<br>
+m.nanton@buenosaires.gob.ar <br>
+**Manuel Rodríguez Tablado**<br>
+mrodrigueztablado@buenosaires.gob.ar <br>
+
+
+<font size="4">Imágenes: prettycons, shmai, Freepik, rsetiawan, nawicon, mynamepong, Darius Dan, Flat icons en Flaticon.com</font>
